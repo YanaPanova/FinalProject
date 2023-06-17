@@ -7,12 +7,12 @@ Wormy is a classic arcade game in which the player controls a snake that moves a
 
 ### The main algorithm of the game "Wormy" has the following structure:
 
-##### Initialization:
+#### Initialization:
 - Creation of game window and playing field.
 - Creating a snake at the starting position.
 - Placing food in a random position.
 
-### The main cycle of the game:
+##### The main cycle of the game:
 1. Receiving input from the player to control the snake (eg using the arrow keys).
 2. Moving the snake in the selected direction.
 3. Checking the condition of contact with the walls or with your body. If the condition is met, the game ends.
